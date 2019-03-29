@@ -24,6 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        if PFUser.current() != nil{
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            
+            // this is the only use case of the root view controller..
+            window?.rootViewController = feedNavigationController
+        }
         
         return true
     }

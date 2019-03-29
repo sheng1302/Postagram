@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		45494C576482B88A90F655B1 /* Pods_Postagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDBFA7AF9FB5282B5DE2927 /* Pods_Postagram.framework */; };
 		B03481FC223EB79000AEBBB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03481FB223EB79000AEBBB7 /* AppDelegate.swift */; };
-		B0348201223EB79000AEBBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03481FF223EB79000AEBBB7 /* Main.storyboard */; };
 		B0348203223EB79200AEBBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0348202223EB79200AEBBB7 /* Assets.xcassets */; };
 		B0348206223EB79200AEBBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0348204223EB79200AEBBB7 /* LaunchScreen.storyboard */; };
 		B0348211223EB79200AEBBB7 /* PostagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0348210223EB79200AEBBB7 /* PostagramTests.swift */; };
@@ -18,6 +17,8 @@
 		B034822C223EBFF400AEBBB7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034822B223EBFF400AEBBB7 /* FeedViewController.swift */; };
 		B034822E223EC65100AEBBB7 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034822D223EC65100AEBBB7 /* CaptureViewController.swift */; };
 		B0348230223ECE5100AEBBB7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034822F223ECE5100AEBBB7 /* PostCell.swift */; };
+		B09BE0E9224C15AF00752AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09BE0E7224C15AF00752AF5 /* Main.storyboard */; };
+		B09BE0EB224C167B00752AF5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE0EA224C167B00752AF5 /* CommentCell.swift */; };
 		C357D56801214526A7EBDD87 /* Pods_PostagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E864A3BB3F36A2DBCA8A05A /* Pods_PostagramTests.framework */; };
 		CD71E3FC5B3ED7E66372306B /* Pods_PostagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46684F09B2FFA8058E304BAD /* Pods_PostagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +48,6 @@
 		A3D5E370AE146628956B3A1E /* Pods-PostagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostagramTests/Pods-PostagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		B03481F8223EB79000AEBBB7 /* Postagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03481FB223EB79000AEBBB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0348200223EB79000AEBBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0348202223EB79200AEBBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0348205223EB79200AEBBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0348207223EB79200AEBBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		B034822B223EBFF400AEBBB7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		B034822D223EC65100AEBBB7 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		B034822F223ECE5100AEBBB7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		B09BE0E8224C15AF00752AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09BE0EA224C167B00752AF5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		BDDBFA7AF9FB5282B5DE2927 /* Pods_Postagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Postagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC9D2DA506CF90E7DF7382 /* Pods-PostagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostagramTests/Pods-PostagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCF362865F8C9C6E9E601544 /* Pods-Postagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Postagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Postagram/Pods-Postagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,14 +146,15 @@
 			isa = PBXGroup;
 			children = (
 				B03481FB223EB79000AEBBB7 /* AppDelegate.swift */,
-				B03481FF223EB79000AEBBB7 /* Main.storyboard */,
 				B0348202223EB79200AEBBB7 /* Assets.xcassets */,
+				B09BE0E7224C15AF00752AF5 /* Main.storyboard */,
 				B0348204223EB79200AEBBB7 /* LaunchScreen.storyboard */,
 				B0348207223EB79200AEBBB7 /* Info.plist */,
 				B0348229223EBFE800AEBBB7 /* LoginViewController.swift */,
 				B034822B223EBFF400AEBBB7 /* FeedViewController.swift */,
 				B034822D223EC65100AEBBB7 /* CaptureViewController.swift */,
 				B034822F223ECE5100AEBBB7 /* PostCell.swift */,
+				B09BE0EA224C167B00752AF5 /* CommentCell.swift */,
 			);
 			path = Postagram;
 			sourceTree = "<group>";
@@ -282,9 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09BE0E9224C15AF00752AF5 /* Main.storyboard in Resources */,
 				B0348206223EB79200AEBBB7 /* LaunchScreen.storyboard in Resources */,
 				B0348203223EB79200AEBBB7 /* Assets.xcassets in Resources */,
-				B0348201223EB79000AEBBB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +318,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -322,6 +326,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +400,7 @@
 				B034822C223EBFF400AEBBB7 /* FeedViewController.swift in Sources */,
 				B03481FC223EB79000AEBBB7 /* AppDelegate.swift in Sources */,
 				B0348230223ECE5100AEBBB7 /* PostCell.swift in Sources */,
+				B09BE0EB224C167B00752AF5 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,20 +436,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B03481FF223EB79000AEBBB7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0348200223EB79000AEBBB7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0348204223EB79200AEBBB7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B0348205223EB79200AEBBB7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B09BE0E7224C15AF00752AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09BE0E8224C15AF00752AF5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
